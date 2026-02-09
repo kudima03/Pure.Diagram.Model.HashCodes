@@ -14,4 +14,7 @@
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageProjectUrl>https://github.com/kudima03/Pure.Diagram.Model.HashCodes</PackageProjectUrl>
   </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Pure.Diagram.Model.Abstractions" Version="0.1.0-preview.0.1.0" />
+  </ItemGroup>
 </Project>
