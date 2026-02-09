@@ -16,5 +16,6 @@
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="Pure.Diagram.Model.Abstractions" Version="0.1.0-preview.0.1.0" />
+    <PackageReference Include="Pure.HashCodes" Version="2.1.0" />
   </ItemGroup>
 </Project>
