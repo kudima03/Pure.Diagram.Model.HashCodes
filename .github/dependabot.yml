@@ -2,8 +2,8 @@ version: 2
 updates:
 - package-ecosystem: nuget
   directories:
-    - "src/"
-    - "src/Tests/"
+    - "src/Pure.Diagram.Model.HashCodes"
+    - "src/Tests/Pure.Diagram.Model.HashCodes.Tests"
   schedule:
     interval: daily
 - package-ecosystem: "github-actions"
