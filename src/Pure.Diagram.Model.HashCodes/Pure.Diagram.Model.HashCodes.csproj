@@ -1,9 +1,17 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
-
   <PropertyGroup>
-    <TargetFramework>net10.0</TargetFramework>
+    <TargetFrameworks>net7.0;net8.0;net9.0;net10.0</TargetFrameworks>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <LangVersion>latest</LangVersion>
+    <IsAotCompatible>true</IsAotCompatible>
   </PropertyGroup>
-
+  <PropertyGroup>
+    <PackageId>Pure.Diagram.Model.HashCodes</PackageId>
+    <RootNamespace>Pure.Diagram.Model.HashCodes</RootNamespace>
+    <AssemblyName>Pure.Diagram.Model.HashCodes</AssemblyName>
+    <Authors>Dmitry Kurochkin</Authors>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/kudima03/Pure.Diagram.Model.HashCodes</PackageProjectUrl>
+  </PropertyGroup>
 </Project>
