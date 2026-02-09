@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 18
+VisualStudioVersion = 18.3.11429.125 d18.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{3CBE9DEE-AD73-414B-B95D-D51F6A1504C2}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pure.Diagram.Model.HashCodes", "Pure.Diagram.Model.HashCodes\Pure.Diagram.Model.HashCodes.csproj", "{BBE7296D-637D-486D-B655-13AF035820FF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{B98194B5-E757-467D-AE2E-1946264CC59F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pure.Diagram.Model.HashCodes.Tests", "Tests\Pure.Diagram.Model.HashCodes.Tests\Pure.Diagram.Model.HashCodes.Tests.csproj", "{3C8C96B1-C5D9-4259-9127-F13A558CB594}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BBE7296D-637D-486D-B655-13AF035820FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBE7296D-637D-486D-B655-13AF035820FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBE7296D-637D-486D-B655-13AF035820FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBE7296D-637D-486D-B655-13AF035820FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C8C96B1-C5D9-4259-9127-F13A558CB594}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C8C96B1-C5D9-4259-9127-F13A558CB594}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C8C96B1-C5D9-4259-9127-F13A558CB594}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C8C96B1-C5D9-4259-9127-F13A558CB594}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3C8C96B1-C5D9-4259-9127-F13A558CB594} = {B98194B5-E757-467D-AE2E-1946264CC59F}
+	EndGlobalSection
+EndGlobal
