@@ -5,7 +5,7 @@ using Pure.HashCodes.Abstractions;
 
 namespace Pure.Diagram.Model.HashCodes;
 
-public sealed record SeriesHash : IDeterminedHash
+public sealed record DiagramSeriesHash : IDeterminedHash
 {
     private static readonly byte[] TypePrefix =
     [
@@ -27,9 +27,9 @@ public sealed record SeriesHash : IDeterminedHash
         242,
     ];
 
-    private readonly ISeries _series;
+    private readonly IDiagramSeries _series;
 
-    public SeriesHash(ISeries series)
+    public DiagramSeriesHash(IDiagramSeries series)
     {
         _series = series;
     }
