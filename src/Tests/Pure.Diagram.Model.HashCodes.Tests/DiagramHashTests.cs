@@ -18,11 +18,11 @@ public sealed record DiagramHashTests
                         new String("qwskoimj"),
                         new DiagramType(new String("yguvhf")),
                         [
-                            new Series(
+                            new DiagramSeries(
                                 new String("frdtgnhji"),
                                 new String("rdfesnjhiuk")
                             ),
-                            new Series(
+                            new DiagramSeries(
                                 new String("dfvnjkhldfg"),
                                 new String("nfjtrdkhigv")
                             ),
@@ -42,8 +42,11 @@ public sealed record DiagramHashTests
                 new String("qwskoimj"),
                 new DiagramType(new String("yguvhf")),
                 [
-                    new Series(new String("frdtgnhji"), new String("rdfesnjhiuk")),
-                    new Series(new String("dfvnjkhldfg"), new String("nfjtrdkhigv")),
+                    new DiagramSeries(new String("frdtgnhji"), new String("rdfesnjhiuk")),
+                    new DiagramSeries(
+                        new String("dfvnjkhldfg"),
+                        new String("nfjtrdkhigv")
+                    ),
                 ]
             )
         );

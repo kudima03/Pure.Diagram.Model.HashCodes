@@ -42,7 +42,9 @@ public sealed record DiagramHash : IDeterminedHash
                 .Concat(new DeterminedHash(_diagram.Description))
                 .Concat(new DiagramTypeHash(_diagram.Type))
                 .Concat(
-                    new DeterminedHash(_diagram.Series.Select(x => new SeriesHash(x)))
+                    new DeterminedHash(
+                        _diagram.Series.Select(x => new DiagramSeriesHash(x))
+                    )
                 )
         ).GetEnumerator();
     }
