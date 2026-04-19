@@ -5,29 +5,29 @@
   xmlns:xsd="http://www.w3.org/2001/XMLSchema"
 >
   <Suppression>
-    <DiagnosticId>CP0002</DiagnosticId>
-    <Target>M:Pure.Diagram.Model.HashCodes.SeriesHash.#ctor(Pure.Diagram.Model.Abstractions.ISeries)</Target>
+    <DiagnosticId>CP0001</DiagnosticId>
+    <Target>T:Pure.Diagram.Model.HashCodes.SeriesHash</Target>
     <Left>lib/net10.0/Pure.Diagram.Model.HashCodes.dll</Left>
     <Right>lib/net10.0/Pure.Diagram.Model.HashCodes.dll</Right>
     <IsBaselineSuppression>true</IsBaselineSuppression>
   </Suppression>
   <Suppression>
-    <DiagnosticId>CP0002</DiagnosticId>
-    <Target>M:Pure.Diagram.Model.HashCodes.SeriesHash.#ctor(Pure.Diagram.Model.Abstractions.ISeries)</Target>
+    <DiagnosticId>CP0001</DiagnosticId>
+    <Target>T:Pure.Diagram.Model.HashCodes.SeriesHash</Target>
     <Left>lib/net7.0/Pure.Diagram.Model.HashCodes.dll</Left>
     <Right>lib/net7.0/Pure.Diagram.Model.HashCodes.dll</Right>
     <IsBaselineSuppression>true</IsBaselineSuppression>
   </Suppression>
   <Suppression>
-    <DiagnosticId>CP0002</DiagnosticId>
-    <Target>M:Pure.Diagram.Model.HashCodes.SeriesHash.#ctor(Pure.Diagram.Model.Abstractions.ISeries)</Target>
+    <DiagnosticId>CP0001</DiagnosticId>
+    <Target>T:Pure.Diagram.Model.HashCodes.SeriesHash</Target>
     <Left>lib/net8.0/Pure.Diagram.Model.HashCodes.dll</Left>
     <Right>lib/net8.0/Pure.Diagram.Model.HashCodes.dll</Right>
     <IsBaselineSuppression>true</IsBaselineSuppression>
   </Suppression>
   <Suppression>
-    <DiagnosticId>CP0002</DiagnosticId>
-    <Target>M:Pure.Diagram.Model.HashCodes.SeriesHash.#ctor(Pure.Diagram.Model.Abstractions.ISeries)</Target>
+    <DiagnosticId>CP0001</DiagnosticId>
+    <Target>T:Pure.Diagram.Model.HashCodes.SeriesHash</Target>
     <Left>lib/net9.0/Pure.Diagram.Model.HashCodes.dll</Left>
     <Right>lib/net9.0/Pure.Diagram.Model.HashCodes.dll</Right>
     <IsBaselineSuppression>true</IsBaselineSuppression>
