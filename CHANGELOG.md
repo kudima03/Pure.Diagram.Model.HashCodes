@@ -6,6 +6,16 @@ Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ---
 
+## [0.1.0-preview.1.1.0] — 2026-11-11
+
+### Added
+- Multi-targets `net11.0` in addition to `net7.0`, `net8.0`, `net9.0`
+  and `net10.0`.
+
+### Changed
+- Package now targets `Pure.Diagram.Model.Abstractions`
+  `0.1.0-preview.1.1.0` and `Pure.HashCodes` `2.2.0`.
+
 ## [0.1.0-preview.1.0.0] — 2026-04-19
 
 ### Changed
