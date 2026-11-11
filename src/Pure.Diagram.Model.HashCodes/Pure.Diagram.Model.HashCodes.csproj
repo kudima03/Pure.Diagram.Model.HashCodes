@@ -18,8 +18,8 @@
     <PackageProjectUrl>https://github.com/kudima03/Pure.Diagram.Model.HashCodes</PackageProjectUrl>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Pure.Diagram.Model.Abstractions" Version="0.1.0-preview.1.0.0" />
-    <PackageReference Include="Pure.HashCodes" Version="2.1.0" />
+    <PackageReference Include="Pure.Diagram.Model.Abstractions" Version="0.1.0-preview.1.1.0" />
+    <PackageReference Include="Pure.HashCodes" Version="2.2.0" />
   </ItemGroup>
   <ItemGroup>
     <None Include="../../README.md" Pack="true" PackagePath="/" />
