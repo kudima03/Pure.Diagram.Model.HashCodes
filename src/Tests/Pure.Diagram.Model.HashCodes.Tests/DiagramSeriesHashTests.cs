@@ -26,7 +26,7 @@ public sealed record DiagramSeriesHashTests
             new DiagramSeries(new String("fhbnuiglvj"), new String("dhnjufiblsr"))
         );
 
-        ICollection<byte> bytes = new List<byte>(32);
+        ICollection<byte> bytes = [with(32)];
 
         foreach (object b in hash)
         {
