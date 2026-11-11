@@ -22,7 +22,7 @@ public sealed record DiagramTypeHashTests
     {
         IEnumerable hash = new DiagramTypeHash(new DiagramType(new String("fhbnuiglvj")));
 
-        ICollection<byte> bytes = new List<byte>(32);
+        ICollection<byte> bytes = [with(32)];
 
         foreach (object b in hash)
         {
